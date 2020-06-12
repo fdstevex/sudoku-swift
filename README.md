@@ -6,8 +6,6 @@ It's not great Swift code, as I was learning Python while porting the original c
 You can run it from the command line:
 
 ```
-> swift Sudoku.swift -g
-
 $ swift Sudoku.swift -g -f
 
 Puzzle generated from seed '529800175' :
