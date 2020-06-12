@@ -1,7 +1,7 @@
 # sudoku-swift
 This is a port of a Sudoku generator written in Python by Ronald L. Rivest in 2006.
 
-It's not great Swift code, but it does generate solved Sudoku. 
+It's not great Swift code, as I was learning Python while porting the original code, but it does work.
 
 You can run it from the command line:
 
@@ -40,3 +40,5 @@ SOLUTION IS UNIQUE
 Puzzle rating: 134
 (moderate)
 ```
+
+Note that the file is called Sudoku.swift for command-line usage convenience, but if you try to build and run in Xcode, you'll get an error, `Expressions are not allowed at the top level`.  Only a source file named `main.swift` is allowed to have code that's at the top level so if you want to debug it in Xcode, rename `Sudoku.swift` to `main.swift`.
