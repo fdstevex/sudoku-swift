@@ -1170,25 +1170,5 @@ func main(args: [String]) {
         }
     }
 }
-/*
- //print(usageString)
-
-// initialize(n: 9, nr: 3, nc: 3)
-
-//do {
-//    let state = save_state()
-//    try set_pos(r: 0, c: 0, v: 1)
-//    print_puzzle()
-//    restore_state(state)
-//    print_puzzle()
-//    try set_pos(r: 0, c: 0, v: 1)
-//    print_puzzle()
-//} catch {
-//    print("Ex")
-//}
-
-//generate_puzzle()
-//print_puzzle()
-*/
 
 main(args:[String](CommandLine.arguments.dropFirst()))
